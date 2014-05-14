@@ -2,7 +2,7 @@
 
 CMake module for check whether a SSE nstructions can be used on the machine.
 
-- Supports SSE2/SSE3/SSE4.1/SSE4.2
+- Supports SSE2/SSE3/SSSE3/SSE4.1/SSE4.2
 - Supports check GCC version(-msse4.2 can use on GCC 4.3 or later)
 
 ## Usage
@@ -23,4 +23,11 @@ IF(SSE4_2_FOUND)
 ENDIF(SSE4_2_FOUND)
 ADD_DEFINITIONS(${CXX_DFLAGS})
 ```
+## Variables
+
+- SSE2\_FOUND
+- SSE3\_FOUND
+- SSSE3\_FOUND
+- SSE4\_1\_FOUND
+- SSE4\_2\_FOUND
 
