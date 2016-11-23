@@ -1,6 +1,6 @@
 # FindSSE.cmake
 
-CMake module for check whether a SSE nstructions can be used on the machine.
+CMake module for check whether a SSE instructions can be used on the machine.
 
 - Supports SSE2/SSE3/SSSE3/SSE4.1/SSE4.2
 - Supports check GCC version(-msse4.2 can use on GCC 4.3 or later)
